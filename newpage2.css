@@ -1,0 +1,68 @@
+.newpage2{
+    width: 100%;
+    height: 90vh;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bo{
+    width: 85%;
+    height: 95%;
+    background-color: black;
+    border-radius: 100px;
+    background-image: linear-gradient(90deg , rgba(12, 12, 12, 0.7 ) , rgba(12, 12, 12, 0.7)), url('https://xtratheme.com/elementor/watch-shop/wp-content/uploads/sites/79/2021/10/box-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 70px;
+}
+.bo h1{
+    color: #fff;
+    font-size: 40px;
+}
+.bo p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.bo .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 150px;
+}
+.bo .images .images-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bo .images .images-content .img{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bo .images .images-content .img img{
+    width: 40px;
+    height: 60px;
+}
+
+.bo .images .images-content:hover .img{
+    transform: rotateY(360deg); 
+    transition: transform 0.6s ease-in-out; /* Smooth rotation transition */
+    background-color: black;
+}
+.bo .images .images-content:hover .img img{
+    filter: brightness(0) invert(1); /* Makes the image white */
+    transition: filter 0.6s ease-in-out; /* Smooth filter transition */
+}

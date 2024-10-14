@@ -1,0 +1,77 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ba{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    position: fixed;
+    top: 0;
+    /* position: sticky; */
+    z-index: 999;
+}
+.ba .n1{
+    width: 20%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.ba .n2{
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ba .n3{
+    width: 20%;
+    height: 100%;
+    /* background-color: rgb(223, 6, 6); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ba ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ba li{
+    float: left;
+}
+.ba li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(229, 230, 230);
+}
+.ba img{
+    width: 20px;
+    height: 20px;  
+}
+.ba .n2 p{
+    font-size: 18px;
+    color: rgb(229, 230, 230);
+    font-family: 'Times New Roman', Times, serif;
+}
+.ba .n3 button{
+    width: 80%;
+    height: 50%;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+    
+}
+.ba .n3 button:hover{
+    transform: scale(1.1);
+    /* background-color: darkcyan; */
+    box-shadow: rgba(162, 240, 46, 0.4) 5px 5px, rgba(162, 240, 46, 0.3) 10px 10px, rgba(162, 240, 46, 0.42) 15px 15px, rgba(162, 240, 46, 0.1) 20px 20px, rgba(162, 240, 46,0.05) 25px 25px;
+}

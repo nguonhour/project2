@@ -1,0 +1,92 @@
+.newpage{
+    width: 100%;
+    height: 100vh;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newpage img:nth-child(1){
+    width: 90%;
+    height: 80%;
+    position: relative;
+    z-index: -1;
+    /* transition: transform 0.5s ease-in-out; Smooth transition */
+    /* border-radius: 50%; Optional: Make it a circular shape */
+    /* animation: spin 100s linear infinite; Adjust duration and repetition */
+}
+/* .newpage img:hover{
+    transform: rotate(360deg);
+} */
+
+/* @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+.newpage img:nth-child(2){
+    position: absolute;
+    width: 41px;
+    height: 25px;
+    z-index: 10;
+    left: 265px;
+    top: 940px;
+    transition: transform 0.5s ease-in-out;
+    background-color: white;
+}
+.newpage img:nth-child(3){
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    z-index: 10;
+    left: 305px;
+    top: 778px;
+    transition: transform 0.5s ease-in-out;
+    /* background-color: black; */
+}
+.newpage img:nth-child(4){
+    position: absolute;
+    width: 42px;
+    height: 31px;
+    z-index: 10;
+    left: 304px;
+    top: 1079px;
+    transition: transform 0.5s ease-in-out;
+    /* background-color: rgba(62, 62, 62, 0.647); */
+}
+.newpage img:nth-child(5){
+    position: absolute;
+    width: 35px;
+    height: 37px;
+    z-index: 10;
+    left: 840px;
+    top: 777px;
+    transition: transform 0.5s ease-in-out;
+    /* background-color: black; */
+}
+.newpage img:nth-child(6){
+    position: absolute;
+    width: 35px;
+    height: 38px;
+    z-index: 10;
+    left: 880px;
+    top: 931px;
+    transition: transform 0.5s ease-in-out;
+    /* background-color: black; */
+}
+.newpage img:nth-child(7){
+    position: absolute;
+    width: 38px;
+    height: 41px;
+    z-index: 10;
+    left: 838px;
+    top: 1072px;
+    transition: transform 0.5s ease-in-out;
+    /* background-color: rgba(62, 62, 62, 0.647); */
+}
+.newpage img:nth-child(2):hover,img:nth-child(3):hover,img:nth-child(4):hover,img:nth-child(5):hover,img:nth-child(6):hover,img:nth-child(7):hover{
+    transform: rotate(360deg);
+}
